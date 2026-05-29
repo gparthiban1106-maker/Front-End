@@ -1,0 +1,289 @@
+<html>
+    <head>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">        
+        <title></title>
+        <style>
+            .img-1{
+                margin-right: 200px;
+            }
+            .class-1{
+                margin-top: 20px;
+                margin-right: 50px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .nav-img{
+                height: 50px;
+                width: 70px;
+                margin-right: 30px;
+                border-radius: 5px;
+                mix-blend-mode:multiply;
+            }
+            .input-text{
+                width: 700px;
+                height: 50px;
+                border-radius: 100px;
+            }
+            .image-view{
+                height: 600px;
+                object-fit:fill;
+            }
+            .main{
+                position: relative;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                height: 100vh;
+                border: 4px solid black;
+                justify-content:center;
+                align-items: center;
+                gap: 100px;
+                background-color: rgba(51, 154, 188, 0.348);
+            }
+            .text{
+                position: relative;
+                top: 80px;
+                left: 130px;
+                font-size: 30px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color: black;
+            }
+            .nav1{
+                background-color: #67e5f6b1;
+            }
+            .nav2{
+                gap: 50px;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 22px;
+            }
+            .btn-1{
+                border-radius: 100px;
+            }
+            .main-1{
+                display: flex;
+            }
+            .card{
+                height: 550px;
+                margin-left:50px;
+                min-width: 200px;
+                flex-shrink: 0;
+            }
+            .card:hover{
+                border-color: black;
+            }
+            .card-scroller{
+                overflow-x: scroll;
+                margin-top: 20px;   
+            }
+            .card-scroller::-webkit-scrollbar{
+                display: none;
+            }
+            .btn-2{
+                margin-left:30px;
+                width: 90px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navbar start-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav1">
+            <a href="Assignment5.html">
+                <img class="nav-img" src="adidas.webp" alt="Adidas image">
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex class-1" role="search">
+                <input class="form-control me-2 input-text" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success btn-1" type="submit">Search</button>
+            </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav2">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">SHOES</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">MEN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">WOMEN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        <!--Navbar end-->
+
+        <!--Card-2 Section Start-->
+        <div class="card-scroller">    
+            <div class="main-1">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/8607f9a789314ba79d7cebddc9f764b7_9366/RANVEER_SINGH_SUPERSTAR_Black_KH8805_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RANVEER SINGH SUPERSTAR <br>Price ₹11 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/3dd2629a27ee486c81eb98593482e64f_9366/ADIDAS_DISNEY_ADIFOAM_SUPERSTAR_360_SHOES_Black_IH1750_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS DISNEY SUPERSTAR 360 <br>Price  ₹7 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c4e332890414bc69d0926995399f4ca_9366/ADISTAR_CONTROL_5_SHOES_Black_KI6120_HM3_hover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADISTAR CONTROL 5 SHOES <br>Price ₹12 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d18032d0e3fd49d3bef034530b58e960_9366/MEGA_GHOSTRIDE_SHOES_Grey_IH4392_01_00_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> ADIDAS MEGA GHOSTRIDE SHOES <br>Price ₹17 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/8607f9a789314ba79d7cebddc9f764b7_9366/RANVEER_SINGH_SUPERSTAR_Black_KH8805_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RANVEER SINGH SUPERSTAR <br>Price ₹11 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/3dd2629a27ee486c81eb98593482e64f_9366/ADIDAS_DISNEY_ADIFOAM_SUPERSTAR_360_SHOES_Black_IH1750_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS DISNEY SUPERSTAR 360 <br>Price  ₹7 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c4e332890414bc69d0926995399f4ca_9366/ADISTAR_CONTROL_5_SHOES_Black_KI6120_HM3_hover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADISTAR CONTROL 5 SHOES <br>Price ₹12 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d18032d0e3fd49d3bef034530b58e960_9366/MEGA_GHOSTRIDE_SHOES_Grey_IH4392_01_00_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> ADIDAS MEGA GHOSTRIDE SHOES <br>Price ₹17 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card-1 Section End-->
+
+        <!--Card-2 Section Start-->
+        <div class="card-scroller">    
+            <div class="main-1">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/8607f9a789314ba79d7cebddc9f764b7_9366/RANVEER_SINGH_SUPERSTAR_Black_KH8805_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RANVEER SINGH SUPERSTAR <br>Price ₹11 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/3dd2629a27ee486c81eb98593482e64f_9366/ADIDAS_DISNEY_ADIFOAM_SUPERSTAR_360_SHOES_Black_IH1750_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS DISNEY SUPERSTAR 360 <br>Price  ₹7 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c4e332890414bc69d0926995399f4ca_9366/ADISTAR_CONTROL_5_SHOES_Black_KI6120_HM3_hover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADISTAR CONTROL 5 SHOES <br>Price ₹12 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d18032d0e3fd49d3bef034530b58e960_9366/MEGA_GHOSTRIDE_SHOES_Grey_IH4392_01_00_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> ADIDAS MEGA GHOSTRIDE SHOES <br>Price ₹17 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/8607f9a789314ba79d7cebddc9f764b7_9366/RANVEER_SINGH_SUPERSTAR_Black_KH8805_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RANVEER SINGH SUPERSTAR <br>Price ₹11 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/3dd2629a27ee486c81eb98593482e64f_9366/ADIDAS_DISNEY_ADIFOAM_SUPERSTAR_360_SHOES_Black_IH1750_00_plp_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS DISNEY SUPERSTAR 360 <br>Price  ₹7 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c4e332890414bc69d0926995399f4ca_9366/ADISTAR_CONTROL_5_SHOES_Black_KI6120_HM3_hover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADISTAR CONTROL 5 SHOES <br>Price ₹12 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d18032d0e3fd49d3bef034530b58e960_9366/MEGA_GHOSTRIDE_SHOES_Grey_IH4392_01_00_standard.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> ADIDAS MEGA GHOSTRIDE SHOES <br>Price ₹17 999.00</h5>
+                        <p class="card-text">MRP in Indian currency per pair <br> Inclusive of all taxes</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <a href="#" class="btn btn-primary btn-2">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card-2 Section End-->
+
+        <!--Bootstrap script tag-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>      
+    </body>
+</html>

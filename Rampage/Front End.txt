@@ -1,0 +1,186 @@
+what is the difference between bold tag & strong tag ?
+
+in the bold tag accessibility is not possible.
+in the strong tag accessibility is possible.
+
+what is the difference between italian tag & empasize tag ?
+
+in the italian tag accessibility is not possible.
+in the empesize tag accessibility is possible.
+
+
+SEO - search engine optimization
+
+how do you achieve search engine optimization in frontend technology?
+
+what is the use of class in html ?
+it is use the CSS particular element.
+
+what is the difference between class & Id ?
+the class is can be use for many element & it denoted by period (.).
+the id is be unique & it denoted by (#).
+
+SEO
+Classes
+Id
+Styling
+div
+
+
+give me a notes inline & block element, tell me the difference between?
+
+Inline element
+
+block element
+
+iframe tag - it is used to refer external website from your current website.
+
+HTML Semantics - tags with some meaning on it.
+
+<header>
+<main>
+<navigation>
+<article>
+<figure>
+<footer>
+<aside>
+
+windows+; = shortcut to select emoji.
+
+List-
+
+<tr> - table row
+<th> - table head
+<td> - Table data
+
+05-04-2026
+
+*DOM-Document Object
+*Learn import
+*for / type / id / name / value 
+<doctype html>
+
+
+CSS - Cascading Style Sheet
+
+Types of CSS
+
+Inline CSS
+Internal CSS
+External CSS
+
+/* */ comment in CSS
+<!-- --!> comment in html
+
+
+CSS Selector
+
+Element Selector
+Class Selector (.)
+Id selector (#)
+Universal selector (*)
+Group Selector 
+
+
+CSS Color
+RGB
+HEXA
+HSL = color:hsl(0-255,0-100%,0-100%)
+HSLA
+CSS Backgroud
+Background color
+Background image
+Background repeat
+Background size
+
+CSS Border
+CSS Margin
+CSS Padding
+
+what is different between margin & padding?
+margin happen outside a Border
+padding happen inside a border
+
+what is box model contain?
+1-padding
+2-border
+3-margin
+
+CSS-Text
+text-indent=
+CSS_FONT
+font-family - font fall back
+
+what is the width & max width in CSS?
+width has a fix size in the screen, 
+max width will help in achieve the responsive webpage
+
+what is difference between position
+static
+relative
+sticky
+absolute
+fixed
+
+Flex layout
+
+CSS_Pesudo
+:hovoer (Pesudo class)
+:nth-child (Pesudo class)
+::first line (Pesudo element)
+::first-letter (Pesudo element)
+::selection (Pesudo element)
+
+Grid layout:
+
+CSS Specificity
+order of priority
+1-Inline Style
+2-id
+3-class
+
+Bootstrap is a css framework
+
+CSS - <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+Script - <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+lead code
+
+
+JAVASCRIPT* very important in interview.
+
+for all the front end technology
+need to learn rules & syntax
+
+difenition of javasript?
+JAVASCRIPT is the high level programming launguage,
+written to make web page live,
+or to add an action to your web page,
+javasript is light weighted.
+
+
+javasript ==> js browser ==>  
+JVM==>Java Virtuak Machine 
+
+
+single line comment ==>  //
+Multiple line comment ==> /*  */
+
+script==> set of instruction.
+
+variables==> Memory to strore the data.
+three ways to create a variable
+*var
+*let
+*const
+
+VAR
+var can be re declared
+var can be re instilized
+
+
+
+
+
+	
