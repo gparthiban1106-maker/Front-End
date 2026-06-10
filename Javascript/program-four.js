@@ -1,4 +1,4 @@
-let text="madasm";
+let text="madam";
 function isPalindrome(str){
 let rev=text.split("").reverse().join("");
 console.log("Rev Value",rev);

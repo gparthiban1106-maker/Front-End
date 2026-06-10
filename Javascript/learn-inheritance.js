@@ -18,4 +18,4 @@ class Mobile extends Product{
 let mobile=new Mobile("Iphone","Red");
 console.log(mobile);
 mobile.buyProduct();
-
+//process of accuraing parent to children

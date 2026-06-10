@@ -6,7 +6,7 @@ console.log("Eg1 - ",arr);
 
 //Example - 2
 let arr1=[10,20,30,40,50];
-let copy=arr.slice();
+let copy=arr1.slice();
 console.log("Eg2 - ",copy);
 console.log("Eg2 - ",arr1);
 
