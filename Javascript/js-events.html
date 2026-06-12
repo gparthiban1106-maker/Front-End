@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>JS-events</title>
+        <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .hello{
+            margin-top: 200px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <div>
+                <input type="text" value="" onblur="pen()"/>
+                <button onclick="sayhello()" onmouseover="remote()" onmouseout="tv()">click</button>
+            </div>
+            <div>
+                <h1 id="hello"></h1>
+            </div>
+        </div>
+        <script>
+            function sayhello()
+            {
+                document.getElementById("hello").innerHTML="I Have Clicked"
+            }
+            function remote()
+            {
+                document.getElementById("hello").innerHTML="on mouse click"
+            }
+            function tv()
+            {
+                document.getElementById("hello").innerHTML="on moving out"
+            }
+            function pen()
+            {
+                document.getElementById("hello").innerHTML="When I blur the input"
+            }
+        </script>
+    </body>
+</html>
