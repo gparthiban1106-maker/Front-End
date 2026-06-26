@@ -15,8 +15,7 @@ const employee={
     role:"code",
 };
 
-const copiedEmployee={
-    ...employee,
-};
+const copiedEmployee={...employee,};
 
 console.log(copiedEmployee);
+console.log(employee);
