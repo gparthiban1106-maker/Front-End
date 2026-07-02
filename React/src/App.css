@@ -13,4 +13,124 @@ button{
     cursor: pointer;
     background-color: red;
     color: #ddd;
+    border-radius: 10px;
 }
+/*
+.btn-1{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 60px;
+    cursor: pointer;
+    background-color: bisque;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    border-style: none;
+
+}
+.btn-1:hover {
+  background: #00ff26;
+  color: #000000;
+}
+*/
+
+.btn-1 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-1:hover {
+  background-color: #09ec14;
+  box-shadow: #ffffff 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btn-1:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .btn-1{
+    font-size: 1.5rem;
+    padding: .75rem 4rem;
+  }
+}
+
+.btn-2 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 20px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-2:hover {
+  background-color: #ff0000;
+  box-shadow: #ffffff 0 -6px 8px inset;
+  transform: scale(1.125);
+    color: #FFFFFF;
+
+}
+
+.btn-2:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .btn-2{
+    font-size: 1.5rem;
+    padding: .75rem 4rem;
+  }
+}
+.main-count{
+    position: relative;
+    top: 50px;
+    left: 550px;
+    height: 200px; width: 400px;
+    box-shadow: 
+    rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }

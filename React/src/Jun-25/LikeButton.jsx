@@ -18,10 +18,10 @@ class LikeButton extends Component{
     render(){
         return(
             <div className="card">
-                <h3>👍Like Counter</h3>
+                <h3 style={{color:"red",backgroundColor:"yellow",borderRadius:"10px"}}>👍Like Counter</h3>
                 <h1>{this.state.likes}</h1>
                 <button onClick={this.increaseLike}>Like👍</button>
-                <button onClick={this.decreaseLike}>UnLike👍</button>
+                <button onClick={this.decreaseLike}>UnLike👎</button>
 
             </div>
         );

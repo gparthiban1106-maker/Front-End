@@ -1,18 +1,19 @@
 import React from "react";
 import "./App.css";
-import Click from "./Jun-24/Click";
-import ClassClick from "./Jun-24/ClassClick";
-import Fan from "./Jun-24/Fan";
-import ClassCount from "./Jun-25/ClassCount";
-import LikeButton from "./Jun-25/LikeButton";
+import Wall from "./Jul-1/Wall";
+import Count from "./Jul-1/Count";
+import Basic from "./Jul-2/Basic";
+import OnlyOnce from "./Jul-2/OnlyOnce";
+import Dependency from "./Jul-2/Dependency";
 
-function App() {
-    
+function App() {  
+
   return(
-    <div>
-      < ClassCount />
-      < LikeButton />
-    </div>
+    <>
+      <Basic/>
+      <OnlyOnce/>
+      <Dependency/>
+    </>
   )
 }
 
