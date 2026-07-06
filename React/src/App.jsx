@@ -5,14 +5,13 @@ import Count from "./Jul-1/Count";
 import Basic from "./Jul-2/Basic";
 import OnlyOnce from "./Jul-2/OnlyOnce";
 import Dependency from "./Jul-2/Dependency";
+import Change from "./Change";
 
 function App() {  
 
   return(
     <>
-      <Basic/>
-      <OnlyOnce/>
-      <Dependency/>
+      < Change />
     </>
   )
 }
