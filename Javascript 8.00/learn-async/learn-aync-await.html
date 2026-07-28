@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>API</title>
+    </head>
+    <body>
+        <h1>Fetch API Example</h1>
+        <button onclick="fetchdata()">Fetch Data</button>
+        <div id="result"></div>
+        <script>
+            async function fetchdata() 
+            {
+            let response = await fetch("https://jsonplaceholder.typicode.com/posts",);
+            
+            let data = await response.json();
+            document.getElementById("result").innerHTML=`
+            <h3>${data[0].title}</h3>
+            <h3>${data[1].title}</h3>
+            `;
+            }   
+        </script>
+    </body>
+</html>
+
+//How to make API call using Javascript?
